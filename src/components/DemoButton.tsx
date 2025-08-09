@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { useTranslations } from "next-intl";
-
+import tutorial from "@/assets/videos/ACE_Project_tutorial.mp4"
 export default function DemoButton() {
   const t = useTranslations('Hero')
   const [showVideoOverlay, setShowVideoOverlay] = useState(false);
@@ -50,7 +50,7 @@ export default function DemoButton() {
               <div className="rounded-lg overflow-hidden shadow-2xl h-full">
                 <iframe
                   className="w-full h-full rounded-lg"
-                  src="/"
+                  src={tutorial}
                   title="Demo Video"
                   frameBorder="0"
                   allow="autoplay; encrypted-media"
