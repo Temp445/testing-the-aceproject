@@ -12,20 +12,27 @@ import projectVideo from "@/assets/videos/Project.mp4"
 import report1 from "@/assets/Report-1.jpg";
 import report2 from "@/assets/Report-2.jpg";
 import report3 from "@/assets/Report-3.jpg";
+import reportVideo from "@/assets/videos/Report.mp4"
+
 
 import team1 from "@/assets/Team1.jpg";
 import team2 from "@/assets/Team2.jpg";
+import teamVideo from "@/assets/videos/Team.mp4"
 
 
 import task1 from "@/assets/Task1.jpg";
 import task2 from "@/assets/Task2.jpg";
 import task3 from "@/assets/Task3.jpg";
 import task4 from "@/assets/Task4.jpg";
+import taskVideo from "@/assets/videos/Tasks.mp4"
+
 
 
 import calendar1 from "@/assets/Calendar-0.jpg";
 import calendar2 from "@/assets/Calendar-1.jpg";
 import calendar3 from "@/assets/Calendar-2.jpg";
+import calendarVideo from "@/assets/videos/Calendar.mp4"
+
 
 import { useTranslations } from "next-intl";
 
@@ -210,7 +217,7 @@ const ProjectReport = () => {
               variants={slideInLeft}
             >
               <AutoPlayVideo
-                src="/videos/Report.mp4"
+                src={reportVideo}
                 className="w-full rounded shadow-md"
               />
             </motion.div>
@@ -241,7 +248,7 @@ const ProjectReport = () => {
               variants={slideInLeft}
             >
               <AutoPlayVideo
-                src="/videos/Team.mp4"
+                src={teamVideo}
                 className="w-full rounded shadow-md"
               />
             </motion.div>
@@ -305,7 +312,7 @@ const ProjectReport = () => {
               variants={slideInLeft}
             >
               <AutoPlayVideo
-                src="/videos/Tasks.mp4"
+                src={taskVideo}
                 className="w-full rounded shadow-md"
               />
             </motion.div>
@@ -343,7 +350,7 @@ const ProjectReport = () => {
               variants={slideInLeft}
             >
               <AutoPlayVideo
-                src="/videos/Calendar.mp4"
+                src={calendarVideo}
                 className="w-full rounded shadow-md"
               />
             </motion.div>
