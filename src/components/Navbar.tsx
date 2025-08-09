@@ -1,7 +1,7 @@
 "use client";
 import { FC, useState } from "react";
 import Link from "next/link";
-import logo from "@/assets/AceLogo.png"
+// import logo from "@/assets/AceLogo.png"
 import {
   House,
   Star,
@@ -13,7 +13,7 @@ import {
   Users,
   LayoutList
 } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 const Navbar: FC = () => {
