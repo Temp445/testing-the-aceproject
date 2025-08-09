@@ -41,6 +41,7 @@
     "@types/validator": "^13.15.1",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
+    "file-loader": "^6.2.0",
     "install": "^0.13.0",
     "react-mailcheck": "^1.2.0",
     "tailwindcss": "^4",
