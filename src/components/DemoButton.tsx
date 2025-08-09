@@ -48,14 +48,14 @@ export default function DemoButton() {
                 <IoCloseCircleOutline />
               </button>
               <div className="rounded-lg overflow-hidden shadow-2xl h-full">
-                <iframe
+                <video
                   className="w-full h-full rounded-lg"
                   src={tutorial}
                   title="Demo Video"
-                  frameBorder="0"
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                ></iframe>
+                  // frameBorder="0"
+                  // allow="autoplay; encrypted-media"
+                  // allowFullScreen
+                ></video>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
 "use client";
 import { FC, useState } from "react";
 import Link from "next/link";
-// import logo from "@/assets/AceLogo.png"
 import {
   House,
   Star,
@@ -13,7 +12,6 @@ import {
   Users,
   LayoutList
 } from "lucide-react";
-// import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 const Navbar: FC = () => {
@@ -29,13 +27,6 @@ const Navbar: FC = () => {
       <nav className="flex items-center justify-between md:pt-3 lg:pb-10 px-4 md:px-0  relative">
         <div className="md:flex items-center hidden ">
           <Link href="/" className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">
-            {/* <Image
-              src={logo}
-              alt="logo"
-              width={100}
-              height={100}
-              className="w-12 h-12 md:w-10 md:h-10 lg:w-12 lg:h-12 "
-            /> */}
             <span className="mt-2">AceProject </span>
           </Link>
         </div>

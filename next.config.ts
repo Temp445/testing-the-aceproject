@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: true,
   },
-  webpack(config, { isServer }) {
+  webpack(config) {
     config.module.rules.push({
       test: /\.mp4$/,
       use: [
