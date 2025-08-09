@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { useTranslations } from "next-intl";
-import tutorial from "@/assets/videos/ACE_Project_tutorial.mp4"
+import tutorial from "@/assets/videos/ace_project_tutorial.mp4"
 export default function DemoButton() {
   const t = useTranslations('Hero')
   const [showVideoOverlay, setShowVideoOverlay] = useState(false);
