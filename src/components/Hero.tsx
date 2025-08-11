@@ -45,7 +45,7 @@ const Hero = () => {
                       <div className="relative h-full bg-white/10 rounded md:rounded-xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                         <Image
                           src={image1}
-                          alt="image"
+                          alt="AceProject"
                           className="w-full h-full object-cover rounded-xl shadow-lg"
                           width={484}
                           height={588}
@@ -60,7 +60,7 @@ const Hero = () => {
                       <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                         <Image
                           src={image2}
-                          alt="image"
+                          alt="AceProject"
                           className="w-full h-full object-cover rounded-lg shadow-lg"
                           width={484}
                           height={294}
@@ -72,7 +72,7 @@ const Hero = () => {
                         <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                           <Image
                             src={image3}
-                            alt="image"
+                            alt="AceProject"
                             className="w-full h-80 object-center rounded-lg shadow-lg"
                             width={542}
                             height={294}

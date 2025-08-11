@@ -60,8 +60,9 @@ export default function DemoButton() {
                   className="w-full h-full rounded-lg"
                   src={tutorial}
                   controls
-                  muted
+                  autoPlay
                   loop
+                  preload="auto"
                 ></video>
               </div>
             </div>
